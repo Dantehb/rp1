@@ -1,27 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import AppBar from './Components/AppBar';
+import Carousel from './Components/Carousel';
+import Card from './Components/Card';
 import './App.css';
 
 function App() {
-    //lal
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const config = {
+        systemName: 'HK.com'
+    }
+    return (
+        <div className="App">
+            <header className="App-header">
+                <AppBar systemName={config.systemName} />
+                <Carousel/>
+                <Card/>
+            </header>
+        </div>
+    );
 }
 
 export default App;
