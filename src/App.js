@@ -2,6 +2,9 @@ import React from 'react';
 import AppBar from './Components/AppBar';
 import Carousel from './Components/Carousel';
 import Card from './Components/Card';
+import NaviBar from './Components/NavBar';
+
+import Container from '@material-ui/core/Container';
 import './App.css';
 
 function App() {
@@ -10,11 +13,11 @@ function App() {
     }
     return (
         <div className="App">
-            <header className="App-header">
-                <AppBar systemName={config.systemName} />
-                <Carousel/>
-                <Card/>
-            </header>
+            <Container maxWidth={'lg'}>
+                <header className="App-header">
+                    <NaviBar systemName={config.systemName} />
+                </header>
+            </Container>
         </div>
     );
 }
