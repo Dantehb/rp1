@@ -5,6 +5,10 @@
 }
 
 .logoText{
-    font-family: "Agency FB";
+    font-family: 'Metal Mania', cursive;
     font-size: 30px;
+}
+
+.Logo:hover{
+    opacity: 70%;
 }

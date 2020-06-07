@@ -6,7 +6,7 @@ const Logo = (config) => {
     return (
         <div>
             <img src={'img/logo.png'} className={'Logo'} />
-            <Box component={"spam"} className={"logoText"}>
+            <Box component={"span"} className={"logoText"}>
                 {config.systemName}
             </Box>
         </div>

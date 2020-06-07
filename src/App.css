@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Metal Mania', cursive;
 }
 
 .App-logo {
@@ -14,10 +15,11 @@
 }
 
 .App-header {
-
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: #404040;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .App-link {
