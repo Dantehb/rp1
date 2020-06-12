@@ -34,3 +34,8 @@
     transform: rotate(360deg);
   }
 }
+
+.AppText{
+  background-color: gray;
+  opacity: 90%;
+}

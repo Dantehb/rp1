@@ -46,20 +46,16 @@ export default function ImgMediaCard() {
                 />
                 <CardContent>
                     <Typography variant="h5" component="h2">
-                        Lizard
+                        Hechizos
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                        across all continents except Antarctica
+                        Ademas de la "Aguja" existen otras formas de hacer daño, sin embargo consumen Almas para poder usarse.
                     </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="small" color="primary">
-                    Share
-                </Button>
-                <Button size="small" color="primary">
-                    Learn More
+                    Mas
                 </Button>
             </CardActions>
         </Card>
@@ -75,20 +71,16 @@ export default function ImgMediaCard() {
                         />
                         <CardContent>
                             <Typography variant="h5" component="h2">
-                                Lizard
+                                Personajes
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                                across all continents except Antarctica
+                                Un gran variedad, cada uno con sus metas y personalidad unica. Sin embargo, todos son insectos.
                             </Typography>
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
-                            Share
-                        </Button>
-                        <Button size="small" color="primary">
-                            Learn More
+                            Mas
                         </Button>
                     </CardActions>
                 </Card>

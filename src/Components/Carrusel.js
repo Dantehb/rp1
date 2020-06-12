@@ -57,7 +57,7 @@ const Carrusel = () => {
                                         Banco
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        Aqui te puedes dormir muy a gusto
+                                        El banco tiene 2 funciones: recuperar la energia y guardar la partida.
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -74,7 +74,7 @@ const Carrusel = () => {
                                         Expansiones
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        Creo son 2, aunque podrian ser 3
+                                        Son extensiones al videojuego original. De momento se cuenta con 3 totalmente gratuitas.
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
