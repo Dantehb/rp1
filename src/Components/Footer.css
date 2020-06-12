@@ -1,0 +1,36 @@
+.foo1{
+    background-color: antiquewhite;
+    opacity: 0.9;
+    margin-bottom: 1.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.foo2{
+    background-color: antiquewhite;
+    opacity: 0.9;
+    margin-bottom: 1.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.foo3{
+    background-color: antiquewhite;
+    opacity: 0.9;
+    margin-bottom: 1.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.foo1:hover{
+    background-color: royalblue;
+}
+.foo2:hover{
+    background-color: dodgerblue;
+}
+.foo3:hover{
+    background-color: darkred;
+}

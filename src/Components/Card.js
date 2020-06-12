@@ -13,7 +13,16 @@ const useStyles = makeStyles({
     root: {
         maxWidth: '80%',
         marginTop: '1%',
-        backgroundColor: '#404040',
+        backgroundColor: 'white',
+        color: '#404040',
+        opacity: '95%',
+        margin: 'auto',
+        border: '1px royalblue solid'
+    },
+    sp: {
+        maxWidth: '80%',
+        marginTop: '1%',
+        backgroundColor: 'gray',
         color: '#404040',
         opacity: '95%',
         margin: 'auto',
@@ -27,7 +36,7 @@ export default function ImgMediaCard() {
     return (
         <Grid container spacing={1}>
             <Grid item item xs={12} sm={6}>
-                <Card className={classes.root}>
+                <Card className={classes.sp}>
             <CardActionArea>
                 <CardMedia
                     component="img"

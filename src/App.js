@@ -4,7 +4,9 @@ import './App.css';
 import { makeStyles } from '@material-ui/core/styles';
 import NavBar from './Components/NavBar';
 import Carrusel from './Components/Carrusel';
-import Card from './Components/Card'
+import Card from './Components/Card';
+import Form from './Components/Form';
+import Footer from './Components/Footer';
 
 const useStyles = makeStyles({
     back: {
@@ -27,6 +29,8 @@ function App() {
                     </header>
                     <Carrusel/>
                     <Card></Card>
+                    <Form/>
+                    <Footer/>
                 </Container>
             </div>
         </div>
