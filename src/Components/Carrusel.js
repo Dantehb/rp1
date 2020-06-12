@@ -9,6 +9,11 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Card from "@material-ui/core/Card";
 import Grid from '@material-ui/core/Grid';
 
+/*
+* PARA QUE EL CARRUSEL FUNCIONE ES NECESARIO INSTALAR LA SIGUIENTE LIBRERIA:
+* https://brainhubeu.github.io/react-carousel/docs/gettingStarted
+* */
+
 
 const useStyles = makeStyles({
     root: {
